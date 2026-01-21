@@ -206,3 +206,51 @@ Always set transition to none or remove transition classes:
 ```
 
 ---
+
+## Quick Reference
+
+### Component Recipes
+
+#### Primary Button
+```html
+<button class="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary-dark">
+```
+
+#### Secondary Button
+```html
+<button class="bg-white text-primary border border-primary px-4 py-2 rounded-md hover:bg-gray-50">
+```
+
+#### Danger Button
+```html
+<button class="bg-error text-white px-4 py-2 rounded-md hover:bg-error-dark">
+```
+
+#### Input Field
+```html
+<input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:border-primary focus:outline-none">
+```
+
+#### Card
+```html
+<div class="bg-white border border-gray-200 rounded-lg p-6">
+```
+
+#### Error Message
+```html
+<p class="text-error text-sm mt-1">Error message</p>
+```
+
+#### Error Alert Box
+```html
+<div class="bg-error-light border border-error text-error-dark p-4 rounded-md">
+```
+
+---
+
+## File Structure
+
+- `src/index.css` - Contains CSS variables and custom utility classes
+- `tailwind.config.js` - Tailwind configuration with custom theme colors
+
+---
